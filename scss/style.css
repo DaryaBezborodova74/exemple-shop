@@ -292,28 +292,45 @@ h1 {
 
 /*-------------form register auth-------------*/
 .auth__btn--login {
+  width: 100%;
   background-color: #005bff;
   color: white;
   font-size: 1.3rem;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
-  padding-left: 0.65rem;
-  padding-right: 0.65rem;
+  padding: 0.65rem;
 }
 
 .auth__btn--reg {
+  width: 100%;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  padding: 0.65rem;
   background-color: white;
   color: black;
 }
 
 .auth {
-  max-width: 230px;
+  max-width: 250px;
   background-color: #ccdeff;
-  padding: 20px;
+  padding: 1.95rem;
+}
+
+.auth div {
+  padding: 5px;
+}
+
+.auth div:first-child {
+  padding-top: 0;
 }
 
 .auth__value {
   border-radius: 5px;
+  border: none;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+  padding-left: 0.65rem;
+  width: 95%;
 }
 
 .auth__btn {
@@ -322,15 +339,30 @@ h1 {
 }
 
 .auth__btn--login {
+  background-color: #005bff;
   color: white;
-  background: #005bff;
+}
+
+.auth__btn--login:hover {
+  background: #99bdff;
 }
 
 .auth__btn--reg {
-  color: #669dff;
-  background: #003799;
+  background-color: white;
+  color: #0049cc;
+}
+
+.auth__btn--reg:hover {
+  background: #99bdff;
 }
 
 .auth:hover {
   color: #669dff;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  font-size: 1.3rem;
+  padding: 0.65rem 0.39rem;
 }
